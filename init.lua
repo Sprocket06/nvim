@@ -3,6 +3,9 @@ require("config.lazy")
 -- change color scheme
 vim.cmd("colorscheme kanagawa")
 
+-- enable line numbers
+vim.cmd("set number")
+
 -- use icons
 require'nvim-web-devicons'.setup {
  -- your personnal icons can go here (to override)
